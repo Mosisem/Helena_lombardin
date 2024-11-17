@@ -23,69 +23,80 @@
         </nav>
     </header>
 
-    <div class="espaço"></div>
+    <br>
+    <br>
+    <br>
+    <br>
 
-    <main>
+    <center>
+             <main>
         
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-           <div class="swiper-wrapper">
-               <!-- Slides -->
-             <div class="swiper-slide">
-                 <div class="p_img">
-                     <img src="imagens/imagem_carrosel_01.png">
-                 </div>    
-             </div>
-     
-            <div class="swiper-slide">
-                 <div class="p_img">
-                     <img src="imagens/imagem_carrosel_02 (2).png"/>
-                 </div>    
-            </div>
-             
-            <div class="swiper-slide">
-                 <div class="p_img">
-                     <img src="imagens/imagem_carrosel_03.png"/>
-                 </div>    
-            </div>
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="p_img">
+                                <img src="imagens/A Educação Além da Sala de Aula (9).png">
+                            </div>    
+                        </div>
+                
+                        <div class="swiper-slide">
+                            <div class="p_img">
+                                <img src="imagens/A Educação Além da Sala de Aula.pptx (2).png"/>
+                            </div>    
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="p_img">
+                                <img src="imagens/A Educação Além da Sala de Aula (10).png"/>
+                            </div>    
+                        </div>
 
-       </div>
-             <!-- If we need pagination -->
-       <div class="swiper-pagination"></div>
-           
-             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-           
-       </div>
-
-    </main>
-     
-    <div class="espaço2"></div>
+                </div>
+                        <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div> 
+                        -->  
+                    
+                </div>
+            </main>
+    </center> 
+    <br>
+    <br>
+    <br>
+    <br>
     <article id="conteudos">
         <img id="imagem_livros" src="imagens/livros.jpg">
         <div id="conteudo-1">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deserunt sint iste praesentium, asperiores provident ad, officiis mollitia suscipit quae nam libero voluptates odit qui tempora nostrum laudantium, impedit sit?
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae corrupti dignissimos minus atque in. Quaerat neque illo atque pariatur exercitationem suscipit alias debitis tempore, ad et est velit quos beatae.
+                Se você busca uma educação de qualidade, que forma cidadãos críticos e preparados para os desafios do futuro, aqui é o lugar ideal para os seus  filhos.
+                 Com uma missão focada na excelência educacional, oferecemos um ambiente acolhedor e participativo, que valoriza tanto o conhecimento acadêmico quanto o desenvolvimento emocional dos alunos.
             </p>
         </div>
-    
     </article>
+    <br><br><br>
 
-    <div class="espaço3"></div>
+    <section class="itinerario">
+        <center>
+            <img id="html" src="imagens/html.jpg">
+        </center>
+        <br>
+        <br>
+        <H1 class="sub_titulo" >Itinerários Informativos</H1>
 
-    <section>
-        <img id="html" src="imagens/html.jpg">
-        <H1>Itinerários Informativos</H1>
-
-        <div class="espaço4"></div>
+        <br>
+        <br>
+        <br>
 
         <article id="conteudo3">
 
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo libero voluptas repellendus sunt modi consequatur voluptatem, fuga incidunt, atque suscipit quos iure. Rem, sit laborum soluta saepe sed esse.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt nam commodi totam obcaecati laborum, deserunt quibusdam repellendus architecto ipsam ea excepturi aut amet odit quidem, accusamus autem, asperiores saepe.     
+                Os Itinerários Formativos são disciplinas que fazem parte do currículo e oferecem uma formação mais personalizada, focada nas áreas de interesse e nas habilidades que o aluno deseja desenvolver. Eles foram criados para que cada estudante tenha um caminho de aprendizado mais alinhado com suas escolhas pessoais e com seus objetivos de vida,
+                 seja para o mercado de trabalho ou para a continuidade dos estudos em uma universidade.
             </p>
 
         </article>
@@ -100,7 +111,12 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo libero voluptas repellendus sunt modi consequatur voluptatem, fuga incidunt, atque suscipit quos iure. Rem, sit laborum soluta saepe sed esse.
                     </p>
                 </article>
-                <button id="button" class="button_itinerario" onclick="humanas_clique()">Saiba mais</button>
+                <button id="button" class="button_itinerario" onclick="humanas_clique()" value="">
+                    <h4 id="txt_bb">
+                        Saiba mais
+                    </h4>
+                </button>
+
             </div>
 
             <div id="exatas">
@@ -112,7 +128,11 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo libero voluptas repellendus sunt modi consequatur voluptatem, fuga incidunt, atque suscipit quos iure. Rem, sit laborum soluta saepe sed esse.
                 </p>
               </article>
-              <button id="button" class="button_itinerario" onclick="exatas_clique()">Saiba mais</button>
+              <button id="button" class="button_itinerario" onclick="exatas_clique()" value="">
+                  <h4 id="txt_bb">
+                      Saiba mais
+                  </h4>
+              </button>
 
             </div>
 
@@ -122,7 +142,17 @@
     </section>
 
     <section class="contente_clube">
-        <h1> Clube juvenil </h1>
+        <h1 class="sub_titulo"> Clube juvenil </h1>
+        <br>
+        <br>
+        <br>
+
+        <article id="conteudo3">
+            <p>
+                os Clubes são espaços dedicados à exploração de interesses pessoais, ao desenvolvimento de habilidades criativas e ao fortalecimento de competências socioemocionais. Os clubes complementam a formação acadêmica,
+                 permitindo que os alunos saiam da rotina das disciplinas tradicionais e se envolvam com atividades que promovem a expressão individual, o trabalho em equipe e a cidadania ativa.
+            </p>
+        </article>
 
     </section>
 

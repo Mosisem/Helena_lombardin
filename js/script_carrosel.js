@@ -13,7 +13,7 @@ const swiper = new Swiper('.swiper', {
   
   //Autoplay Settings
   autoplay: {
-    delay: 3000,
+    delay: 3700,
     disableOnInteraction: false, 
   },
 });

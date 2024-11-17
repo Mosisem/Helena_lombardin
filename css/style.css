@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 :root{
-    --cor01: #07f0f0d3;
+    --cor01: #1948e2;
     --cor02: #31B1B0;
     --cor03: #3B7070;
-    --cor04: #006EB8;
+    --cor04: #0273be;
     --cor05:  rgb(77, 77, 77);
 }
 
@@ -95,8 +95,9 @@ article#conteudos{
     padding: 20px 0px;
     display: flex;
     justify-content:right;
-
-    background-color: var(--cor01);
+    background-color: #ffc341;
+    color: white;
+    margin-bottom: -40px;
 }
 
 @media (max-width: 620px) {
@@ -123,10 +124,6 @@ article#conteudos{
     width: 250px;
     margin-right: 90px;
     margin-top: 30px;
-}
-
-.espaço3{
-    height: 150px;
 }
 
 section h1{
@@ -170,15 +167,17 @@ section .box_itinerario{
     width: 540px;
     margin: 20px;
     border-radius: 5px;
-    box-shadow:2px 3px 7px #13131f6d;
-    transition: 0.8s;   
+    border: 2px solid #13131f6d;
+   /* box-shadow: 12px 12px 2px 1px #13131f6d;*/
+    transition: 1s;   
 }
 
 .box_itinerario div:hover{
     position: relative;
     top: -13px;
-    box-shadow:4px 6px 14px #13131f6d;
-    /*color: white;*/
+    /*box-shadow:4px 6px 14px #13131f6d;*/
+    box-shadow: 6px 6px 2px 1px #13131f6d;
+   
 } 
 
 .imagem {
@@ -190,9 +189,9 @@ section .box_itinerario{
 }
 
 #html{
-    position: absolute;
-    top: 950px;
-    left: 970px;
+    position: relative;
+    top: 50px;
+    margin-left: 670px;
     width: 8%;
     height: 17%;
 }
@@ -244,6 +243,7 @@ main{
     min-width: 300px;
     max-width: 1000px;
     margin-bottom: 40px;
+    margin-top: -40px;
 }
 
 .swiper-slide{
@@ -251,6 +251,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.p_img img{
+    border-radius: 6px;
 }
 
 div button{
@@ -264,6 +268,13 @@ div button{
     margin-left: 80%;
 }
 
+#conteudo3 p{
+     text-align: center;
+     font-size: 14px;
+}
+
 .contente_clube{
     margin-top: 90px;
 }
+
+

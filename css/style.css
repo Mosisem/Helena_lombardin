@@ -281,5 +281,6 @@ div button{
 .lista_clubes{
     display: block;
     width: 100%;
+    background-color: #0273be;
 }
 

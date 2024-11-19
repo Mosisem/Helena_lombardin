@@ -91,7 +91,6 @@ nav a:hover{
 
 article#conteudos{
     width: 100%;
-    background-color: var();
     padding: 20px 0px;
     display: flex;
     justify-content:right;
@@ -282,5 +281,6 @@ div button{
     display: block;
     width: 100%;
     background-color: #0273be;
+    height: 400px;
 }
 

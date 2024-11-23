@@ -32,53 +32,11 @@
             <h1 id="txt_t_contato">Fale conosco</h1>
         </center>
         <br>
-        <center>
-            <form action="js/">
-                <p>
-                    <input type="text"  name="Nome do responsável" placeholder="Nome do responsável:" class="input" id="" required>
-                </p>
-                <p>
-                    <input type="text" name="sobre nome do responsavel" placeholder="Sobre nome do responsável:" class="input" id="" required>
-                </p> 
-        
-                <p>
-                    <input type="email" name="E-mail" placeholder="Eimail:" class="input" id="" required>
-                </p>
-    
-                <p>
-                    <input type="text" name="celular" placeholder="celular: " class="input" id="celular" maxlength="15" autocomplete="off" required>
-        
-                </p>
-    
-                <p>
-                    <input type="text"  name="Nome completo do aluno" placeholder="Nome completo do aluno:" class="input" id="" required>
-                </p>
-        
-                 <input type="submit"  value="Enviar" class="botao_form">
-
-            </form>
-
-        </center>
-    
+        <input type="text"  name="Nome do responsavel" class="input" id="">
+        <input type="text" name="sobre nome do responsavel" class="input" id="">
+        <input type="email" name="E-mail" class="input" id="">
+        <input type="number" name="Numero" class="input" id="">
     </div>
-    <br><br>
-    <center>
-        <hr>
-        <br>
-        <br>
-        <section>
-            <center>
-                <h2>
-                   informações para contato
-                </h2>
-            </center>
-            <div>
-            
-
-            </div>
-        </section>
-    </center>
-
 
 
     <footer>
@@ -88,15 +46,4 @@
 
 </body>
 </html>
-<script>
-
-	$('#celular').mask('(00) 0000-00009');
-	$('#celular').blur(function(event) {
-		if($(this).val().length == 15){
-			$('#celular').mask('(00) 00000-0009');
-		} else {
-			$('#celular').mask('(00) 0000-00009');
-		}
-	});
-
-</script>
+<script></script>

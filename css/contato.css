@@ -1,5 +1,5 @@
 .section_contato{
-    height: 680px;
+    height: 600px;
     width: 100%;
     filter: brightness(.65) opacity(4.75);
     background-attachment: scroll;
@@ -8,15 +8,13 @@
 
 .box_content{
     position:absolute;
-    margin-top: -590px;
-    margin-left: 60%;
+    margin-top: -550px;
+    margin-left: 65%;
     background-color:rgba(0, 0, 0, 0.329);
     height: 500px;
     width: 400px;
     border-radius: 5px;
     border: 2px solid rgba(255, 255, 255, 0.507);
-    display: block;
-    padding: 20px;
 }
 
 #txt_t_contato{
@@ -25,46 +23,10 @@
     color: white;
 }
 
-.input{
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.333);
-    width: 205px;
-    height: 25px;
-    margin-bottom: 15px;
-    margin-right: 10px;
-    border: 2px solid rgba(128, 128, 128, 0.452);
-    color: rgba(255, 255, 255, 0.594);
-    border-radius: 3px;
-    padding: 10px;
-
-}
-
-.botao_form{
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    padding: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border: none;
-    border-radius: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.768);
-}
-
-hr{
-    width: 50%;
-}
-
-h2{
-    font-size: 45px;
-    color:#449dd8;
-    font-family:'Monst', Times, serif;
-}
-
 
 footer{
     position: relative;
-    margin-top: 500px;
+    margin-top: 200px;
     background-color: rgb(10, 10, 10);
     padding: 10px;
     color: white;

@@ -61,6 +61,31 @@ h2{
     font-family:'Monst', Times, serif;
 }
 
+.content_mae{
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.content_informacoes_de_contato{
+    color: white;
+    height: 200px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+.logo_h{
+     margin-top: 15px;
+}
+
+.content_local{
+     margin-top: 39px;
+     color: white;
+     background-color: aqua;
+     padding: 20px;
+}
+
+
 
 footer{
     position: relative;

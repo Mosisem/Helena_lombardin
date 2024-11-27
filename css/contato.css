@@ -86,8 +86,8 @@ ul{
 .content_local{
      margin-top: 39px;
      color: white;
-     background-color: aqua;
      padding: 20px;
+     margin-bottom: -600px;
 }
 
 

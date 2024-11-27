@@ -94,10 +94,11 @@ article#conteudos{
     background-color: var();
     padding: 20px 0px;
     display: flex;
-    justify-content:right;
+    justify-content:center;
     background-color: #ffc341;
     color: white;
     margin-bottom: -40px;
+
 }
 
 @media (max-width: 1024px) {

@@ -100,14 +100,14 @@ article#conteudos{
     margin-bottom: -40px;
 }
 
-@media (max-width: 1024px) {
+/*@media (max-width: 1024px) {
     article#conteudos{
         border-radius: 10px;
     }
     article#conteudos p{
         margin: 10px;
     }
-}
+}*/
 
 #conteudo-1{
     text-align:left;

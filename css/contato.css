@@ -59,9 +59,11 @@ h2{
     font-size: 45px;
     color:#449dd8;
     font-family:'Monst', Times, serif;
+    background-color: white;
 }
 
 .content_mae{
+    background-color: black;
     padding-bottom: 50px;
 }
 

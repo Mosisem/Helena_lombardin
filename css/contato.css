@@ -71,6 +71,7 @@ h2{
     height: 200px;
     margin-top: 20px;
     padding: 10px;
+    align-items: center;
 }
 
 ul{

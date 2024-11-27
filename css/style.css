@@ -296,7 +296,7 @@ div button{
 }
 
 .fala_imag{
-    width: 10%;
+    width: 6%;
 }
 
 .content_noticias{
@@ -314,15 +314,48 @@ ul{
 li{
     margin: 35px;
     margin-left: 85px;
-
     transition: 1s;
+    padding: 25px;
 }
 
 
-li:hover{
-    padding: 20px;
+/*li:hover{
     margin-top: 80px;
-    background-color: palegreen;
+    background-color: aqua;
+    color: white;
+}*/
+
+#elemento_1:hover{
+    margin-top: 65px;
+    background-color: aqua;
+    color: white;
+
+}
+#elemento_2:hover{
+    margin-top: 65px;
+    background-color:  #ffc341;
+    color: white;
+
+}
+
+#elemento_3:hover{
+    margin-top: 65px;
+    background-color: aqua;
+    color: white;
+
+}
+
+#elemento_4:hover{
+    margin-top: 65px;
+    background-color: aqua;
+    color: white;
+}
+
+#contente_n_txt{
+    width: 1000px;
+    height: 150px;
+    background-color: darkblue;
+    border-radius: 5px;
 }
 
 

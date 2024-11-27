@@ -73,6 +73,10 @@ h2{
     padding: 10px;
 }
 
+ul{
+  display: block;
+}
+
 
 .logo_h{
      margin-top: 15px;

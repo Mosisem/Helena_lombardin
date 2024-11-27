@@ -289,4 +289,40 @@ div button{
     margin-bottom: 40px;
 }
 
+.content_mural{
+    padding: 30px;
+    margin-bottom: -200px;
+    text-align: center;
+}
+
+.fala_imag{
+    width: 10%;
+}
+
+.content_noticias{
+    width: 1200px;
+    height: 450px;
+    border: 2px solid black ;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+li{
+    margin: 35px;
+    margin-left: 85px;
+
+    transition: 1s;
+}
+
+
+li:hover{
+    padding: 20px;
+    margin-top: 80px;
+    background-color: palegreen;
+}
+
 

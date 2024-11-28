@@ -90,7 +90,7 @@ nav a:hover{
 }
 
 article#conteudos{
-    width: 90%;
+    width: 0%;
     padding: 20px;
     display: flex;
     justify-content:center;

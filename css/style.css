@@ -89,10 +89,13 @@ nav a:hover{
      height: 50px;
 }
 
+
+
 article#conteudos{
-    width: 95%;
+    width: 98.5%;
     padding: 10px;
     display: flex;
+    margin-right: 0px;
     justify-content:center;
     background-color: #ffc341;
     color: white;
@@ -114,8 +117,6 @@ article#conteudos{
     width: 600px;
     margin-right: 50px;
     margin-top: 70px;
-
-    
 }
 
 #imagem_livros{
@@ -224,14 +225,6 @@ section .box_itinerario{
 
 }
 
-footer{
-    position: relative;
-    margin-top: 200px;
-    background-color: rgb(10, 10, 10);
-    padding: 10px;
-    color: white;
-    text-align: center;
-}
 
 main{
     width: 100%;
@@ -278,28 +271,65 @@ div button{
     display: block;
     height: 75%;
     padding: 20px;
-    width: 100%;
+    width: 96.7%;
+    margin-right: 0px;
+    justify-content: center;
 }
 
 
 .lista_clubes{
     display: block;
-    width: 95%;
-    height: 570px;
+    width: 100%;
+    height: 620px;
     margin-bottom: 40px;
-    margin-left: -20px;
+    justify-content: center;
     justify-items: left;
     padding-top: 30px;
 }
 
+.img_liste_clubes{
+    height: 98%;
+    width: 95%;
+    margin: 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
 .clubes_geral{
     margin: 20px;
-    margin-top: 50px;
-    background-color: black;
+    margin-top: 30px;
+    background-color: white;
     height: 220px;
-    width: 100px;
+    width: 280px;
     border-radius: 5px;
     border: 2px solid black;
+    padding-bottom: 20px;
+    transition: 0.9s;
+}
+
+.sub_lit_clubes{
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.clubes_geral_2{
+    margin: 20px;
+    margin-top: 30px;
+    background-color: white;
+    height: 220px;
+    width: 280px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding-bottom: 20px;
+    transition: 0.9s;
+}
+
+.clubes_geral:hover{
+     background-color: black;
+}
+
+.clubes_geral_2:hover{
+    background-color: black;
 }
 
 
@@ -395,6 +425,7 @@ footer{
     padding: 10px;
     color: white;
     text-align: center;
-    width: 100%;
+    width: 98.5%;
+    margin-right: 0px;
 }
 

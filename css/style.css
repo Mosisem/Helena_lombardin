@@ -307,6 +307,7 @@ div button{
     transition: 0.9s;
 }
 
+
 .sub_lit_clubes{
     justify-content: center;
     margin-left: 200px;
@@ -326,10 +327,12 @@ div button{
 
 .clubes_geral:hover{
      background-color: black;
+     margin-bottom: 60px;
 }
 
 .clubes_geral_2:hover{
     background-color: black;
+    margin-bottom: 60px;
 }
 
 

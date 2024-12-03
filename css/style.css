@@ -310,6 +310,11 @@ div button{
 
 .sub_lit_clubes{
     justify-content: center;
+    margin-left: 100px;
+}
+
+.sub_lit_clubes_2{
+    justify-content: center;
     margin-left: 200px;
 }
 

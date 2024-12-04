@@ -157,7 +157,7 @@ section .box_itinerario{
 .box_itinerario{
       position: relative;
       margin-top: -20px;
-      height: 360px;
+      height: 260px;
       width:800px ;
       display:flex;
       place-items: center;
@@ -165,7 +165,7 @@ section .box_itinerario{
 
 .box_itinerario div{
     position: relative;
-    height: 280px;
+    height: 190px;
     width: 540px;
     margin: 20px;
     border-radius: 5px;
@@ -177,8 +177,8 @@ section .box_itinerario{
 .box_itinerario div:hover{
     position: relative;
     top: -13px;
-    /*box-shadow:4px 6px 14px #13131f6d;*/
-    box-shadow: 6px 6px 2px 1px #13131f6d;
+    box-shadow:4px 6px 14px #13131f6d;
+   /* box-shadow: 6px 6px 2px 1px #13131f6d;*/
    
 } 
 
@@ -312,12 +312,12 @@ div button{
 .sub_lit_clubes{
     
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 30px;
 }
 
 .sub_lit_clubes_2{
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 30px;
 }
 
 .clubes_geral_2{

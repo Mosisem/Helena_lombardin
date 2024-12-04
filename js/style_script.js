@@ -10,11 +10,13 @@ var txt_b = window.document.getElementById("txt_bb")
 
 function humanas_clique(){
       if (animacao_humanas.style.height == "300px"){
+            
             animacao_humanas.style.height="190px"
             texto_int_huma.innerText="Os itinerários de Humanas são voltados para o estudo das ciências sociais,linguagens e comportamentos humanos, oferecendo uma abordagem mais crítica, reflexiva e interpretativa da sociedade."
             text_b.innerText="Saiba mais"
             animacao_h.style.backgroundColor="black"
             animacao_h.style.marginTop="40px"
+
       }else{
              animacao_humanas.style.height="300px"
              texto_int_huma.innerText=
@@ -28,11 +30,13 @@ function humanas_clique(){
 
 function exatas_clique(){
       if (animacao_exatas.style.height == "300px"){
+
             animacao_exatas.style.height="190px"
             texto_int_exatas.innerText=" Os itinerários de Exatas são voltados para o desenvolvimento de habilidades analíticas e lógicas,com foco em ciências, matemática e tecnologias. "
             txt_b.innerText="Saiba mais"
             animacao_x.style.backgroundColor="black"
             animacao_x.style.marginTop="40px"
+            
       }else{
             texto_int_exatas.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo libero voluptas repellendus sunt modi consequatur voluptatem, fuga incidunt, atque suscipit quos iure. Rem, sit laborum soluta saepe sed esse.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt nam commodi totam obcaecati laborum, deserunt quibusdam repellendus architecto ipsam ea excepturi aut amet odit quidem, accusamus autem, asperiores saepe."
             animacao_exatas.style.height="300px"

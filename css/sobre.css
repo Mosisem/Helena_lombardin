@@ -71,8 +71,7 @@ nav a:hover {
 #about-banner {
     width: 100%;
     padding: 40px 0px;
-    background-color: var(--cor02);
-    color: white;
+    color:black;
     text-align: center;
 }
 
@@ -190,4 +189,13 @@ nav a:hover {
     background-color: var(--cor05);
     color: white;
     text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    margin-top: 1px;
+    margin-bottom: -60%;
 }

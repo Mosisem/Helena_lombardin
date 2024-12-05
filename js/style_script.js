@@ -38,13 +38,11 @@ function exatas_clique(){
             animacao_x.style.marginTop="40px"
             
       }else{
-            texto_int_exatas.innerText="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo libero voluptas repellendus sunt modi consequatur voluptatem, fuga incidunt, atque suscipit quos iure. Rem, sit laborum soluta saepe sed esse.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam incidunt nam commodi totam obcaecati laborum, deserunt quibusdam repellendus architecto ipsam ea excepturi aut amet odit quidem, accusamus autem, asperiores saepe."
-            animacao_exatas.style.height="300px"
+            texto_int_exatas.innerText=" Os itinerários de Exatas no ensino médio visam o desenvolvimento de habilidades lógicas e analíticas, com foco em disciplinas como Matemática, Física, Química, Biologia e Tecnologias. Eles capacitam os estudantes a compreender fenômenos naturais e resolver problemas complexos, promovendo o raciocínio crítico e a solução estruturada de questões. Além de preparar para áreas como engenharia, tecnologia e pesquisa científica, esses itinerários formam cidadãos capazes de lidar com os avanços tecnológicos e se adaptar às rápidas mudanças do mercado de trabalho."
             txt_b.innerText="Ver menos"
             animacao_x.style.backgroundColor="blue"
             animacao_x.style.marginTop="140px"
-             
-             
+             animacao_exatas.style.height="300px"
       }
 }
 

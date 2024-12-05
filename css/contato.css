@@ -95,10 +95,24 @@ ul{
 }
 
 iframe{
-    margin-left: 50px;
+    margin-left: 70px;
 
 }
 
+#contact-info {
+    padding: 40px 20px;
+    background-color:black;
+    color: white;
+    text-align: center;
+}
+
+#contact-info p{
+   margin-left: 70px;
+}
+
+footer p{
+    margin-left: 90px;
+}
 
 
 footer{

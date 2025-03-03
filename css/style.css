@@ -284,7 +284,7 @@ div button{
     width: 100%;
     height: 620px;
     margin-bottom: 40px;
-    justify-items: left;
+    justify-items: center;
     padding-top: 30px;
 }
 
@@ -292,7 +292,7 @@ div button{
     height: 98%;
     width: 95%;
     margin: 10px;
-    margin-left: 8px;
+    margin-left: 14px;
     border-radius: 5px;
 }
 
@@ -329,6 +329,7 @@ div button{
     border-radius: 5px;
     border: 2px solid black;
     padding-bottom: 20px;
+    padding-left: 3px;
     transition: 0.9s;
 }
 
@@ -356,7 +357,6 @@ div button{
 .v_escola{
     align-items: center;
     text-align: center;
-    border-radius: 10px;
     margin-top: 7%;
     padding: 30px;
 
@@ -432,5 +432,193 @@ footer{
     text-align: center;
     width: 98.5%;
     margin-right: -1px;
+}
+
+
+
+
+
+
+
+
+/* Layout Responsivo */
+@media (max-width: 814px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .swiper img {
+        width: 100%;
+        height: auto;
+    }
+
+    .box_itinerario {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 814px) {
+
+    #conteudo3 p{
+        text-align: center;
+        font-size: 12px;
+        background-color: #0273be;
+        margin: 5px;
+        margin-left: -20px;
+        width: 490px;
+        padding: 5px;
+     }
+
+    .contente_clube{
+        margin-top: 90px;
+        display: block;
+        height: 75%;
+        padding: 20px;
+        width: 96.7%;
+        justify-content: center;
+        background-color: #ffc341;
+    }
+    
+    
+    .lista_clubes{
+        display: block;
+        width: 80%;
+        height: 420px;
+        margin-bottom: 40px;
+        justify-items: center;
+        padding: 30px;
+        padding-left: 0%;
+        background-color: red;
+        margin-left: -5%;
+    }
+    
+    .img_liste_clubes{
+        height: 98%;
+        width: 95%;
+        margin: 10px;
+        margin-left: 1.5%;
+        border-radius: 5px;
+    }
+    
+    .clubes_geral{
+        margin:2%;
+        margin-left: 5px;
+        margin-top: 30px;
+        background-color: white;
+        height: 120px;
+        width: 140px;
+        border-radius: 5px;
+        border: 2px solid black;
+        padding-bottom: 20px;
+        padding-left: 3px;
+        transition: 0.9s;
+    }
+    
+    
+    .sub_lit_clubes{
+        
+        justify-content: center;
+        margin-left: 30px;
+    }
+    
+    .sub_lit_clubes_2{
+        justify-content: center;
+        margin-left: 30px;
+    }
+    
+    .clubes_geral_2{
+        margin: 1%;
+        margin-top: 30px;
+        background-color: white;
+        height: 120px;
+        width: 140px;
+        border-radius: 5px;
+        border: 2px solid black;
+        padding-bottom: 20px;
+        padding-left: 3px;
+        transition: 0.9s;
+    }
+    
+    .clubes_geral:hover{
+         background-color: black;
+         margin-bottom: 60px;
+    }
+    
+    .clubes_geral_2:hover{
+        background-color: black;
+        margin-bottom: 60px;
+    }
+
+    .v_escola{
+        align-items: center;
+        margin-top: 7%;
+        padding: 3px;
+        background-color: greenyellow;
+        
+    }
+
+    .v_escola iframe {
+            width:91% ;
+            height: 220px;
+    }
+}
+
+@media (max-width: 814px) {
+
+    .swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .content_noticias {
+        width: 100%;
+        height: 380px;
+        background-color: blueviolet;
+    }
+
+    #contente_n_txt{
+        width: 95%;
+        height: 150px;
+        background-color:red;
+        border-radius: 5px;
+    }
+
+    .content_noticias ul {
+        background-color: yellow;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .content_noticias li{
+        margin: 5px;
+        margin-left: 15px;
+        transition: 1s;
+        padding: 5px;
+        background-color: red;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 814px){
+   .itinerario {
+     background-color: #ffc341;
+   }
+
+   .content_mural{
+    background-color: aqua;
+   }
 }
 

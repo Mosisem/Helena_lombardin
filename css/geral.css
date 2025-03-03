@@ -78,3 +78,46 @@ nav a:hover{
      color: black;
      border-radius: 3px;
 }
+
+
+
+
+/* Layout Responsivo */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .swiper img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 780px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .content_informacoes_de_contato ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

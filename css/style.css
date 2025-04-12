@@ -35,8 +35,8 @@ header > a{
 }
 
 header img#logo{
-    padding-left: 10px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 10px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     background-color: var(--cor04);
@@ -427,12 +427,6 @@ footer{
 }
 
 
-
-
-
-
-
-
 /* Layout Responsivo */
 @media (max-width: 814px) {
     header {
@@ -462,15 +456,38 @@ footer{
     }
 
     #humanas{
-        width: 96%;
-        margin-left: 17px;
+        width: 95%;
+        margin-left: 14px;
     }
 
     #exatas{
-        width: 96%;
-        margin-left: 17px;
+        width: 95%;
+        margin-left: 14px;
         font-size:10px ;
     }
+
+    .imagem {
+        margin: 8px;
+        margin-top: 10px;
+        border-radius: 7px;
+        height: 120px;
+        width: 180px;
+    }
+
+    #texto_int_huma{
+        text-align: center;
+        margin-top: 32px;
+        width: 260px;
+        margin-left: 19px;
+        }
+
+    #texto_int_exatas{
+        text-align: center;
+        margin-top: 32px;
+        width: 260px;
+        margin-left: 19px;
+        }
+
 }
 
 @media (max-width: 814px) {
@@ -591,6 +608,23 @@ footer{
             width:91% ;
             height: 220px;
     }
+
+    article#conteudos{
+        width: 98.5%;
+        padding: 10px;
+        display: flex;
+        margin-right: 0px;
+        justify-content:center;
+        background-color: #ffc341;
+        color: white;
+        margin-bottom: -40px;
+
+    }
+
+    #slide_espaco{
+        margin-top: -55px;
+        margin-bottom: -80px;
+    }
 }
 
 @media (max-width: 814px) {
@@ -632,7 +666,7 @@ footer{
 
 @media (max-width: 814px){
    .itinerario {
-     height: 100%;
+     height: 95%;
    }
    
    #conteudos{
@@ -655,5 +689,25 @@ footer{
     margin-right: 80px;
     margin-top: 10px;
     }
+
+    .fala_imag{
+        width: 8%;
+    }
+
+    #DNA{
+        position: relative;
+        top: -50px;
+        left: 20%;
+        width: 5%;
+        height: 13%;
+    }
+
+    #nome_escola{
+        font-size: 20px;
+        padding: 1px;
+        margin-left: -12%;
+        
+    }
+
 }
 

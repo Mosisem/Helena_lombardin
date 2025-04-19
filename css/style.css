@@ -428,7 +428,13 @@ footer{
 
 
 /* Layout Responsivo */
+
+
 @media (max-width: 814px) {
+    body{
+        background-color: white;
+    }
+
     header {
         flex-direction: column;
         text-align: center;

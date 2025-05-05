@@ -105,7 +105,7 @@ article#conteudos{
     justify-content:center;
     background-color: #ffc341;
     color: white;
-    margin-bottom: -40px;
+    margin-bottom: -30px;
     border-radius: 5px;
 }
 
@@ -114,7 +114,26 @@ article#conteudos{
     text-align:left;
     width: 600px;
     margin-right: 50px;
-    margin-top: 70px;
+    margin-top: 30px;
+    
+    padding: 10px;
+}
+
+#info_escola{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    margin-top: 7%;
+    margin-left: 36%;
+    border-radius: 25px;
+    border: solid white;
+    background-color:black;
+    transition: 1s;
+}
+
+#info_escola:hover{
+    border: solid #449dd8;
+    color:#449dd8 ;
 }
 
 #imagem_livros{
@@ -261,9 +280,10 @@ div button{
 
 #conteudo3 p{
      text-align: center;
-     font-size: 12px;
-     margin-left: 20px;
+     font-size: 15px;
+     margin-left: 17%;
      margin-bottom: 70px;
+     width: 900px;
 }
 
 .contente_clube{
@@ -465,12 +485,10 @@ footer{
 
     #humanas{
         width: 90%;
-        margin-left: 14px;
     }
 
     #exatas{
         width: 90%;
-        margin-left: 14px;
         font-size:10px ;
     }
 
@@ -506,7 +524,7 @@ footer{
         border-radius: 5px;
         border: 2px solid #13131f6d;
        /* box-shadow: 12px 12px 2px 1px #13131f6d;*/
-        transition: 1s;   
+        transition: 1s; 
     }
 
     .box_itinerario article{
@@ -519,6 +537,38 @@ footer{
         justify-content:center;
         height: 80px;
     }
+
+    #conteudo3 p{
+        text-align: center;
+        font-size: 12px;
+        margin-left: 8%;
+        margin-bottom: 30%;
+        margin-top: -30px;
+        width: 400px;
+   }
+
+    #exatas{
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-bottom: 20%;
+    }
+    #humanas{
+        margin-left: 5%;
+    }
+
+    div button{
+        height: 35px;
+        position: relative;
+        width: 85px;
+        border-radius: 10px;
+        border: none;
+        background-color:black;
+        color: white;
+        margin: 20px;
+        margin-left: 80%;
+        margin-top: 7%;
+    }
+    
 
 }
 
@@ -555,9 +605,9 @@ footer{
         margin-bottom: 40px;
         justify-items: center;
         padding: 40px;
-        padding-left: 0%;
-        margin-left: -5%;
-
+        padding-left: 30%;
+        margin-left: 5%;
+        margin-top: -50%;
     }
     
     .img_liste_clubes{
@@ -586,13 +636,13 @@ footer{
     .sub_lit_clubes{
         
         justify-content: center;
-        margin-left: 15px;
-        margin-top: 100px;
+        margin-left: 4px;
+        margin-top: 70px;
     }
     
     .sub_lit_clubes_2{
         justify-content: center;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     
     .clubes_geral_2{
@@ -631,17 +681,35 @@ footer{
     }
 
     article#conteudos{
-        width: 74%;
-        height: 130px;
+        width: 90%;
+        height: 290px;
         padding: 10px;
         padding-top: 0px;
         display: flex;
-        margin-left:13%;
+        margin-left:5%;
         justify-content:center;
         background-color: #ffc341;
         color: white;
         margin-bottom: 40px;
 
+    }
+
+    #info_escola{
+        position: relative;
+        width: 120px;
+        height: 45px;
+        font-size: 12px;
+        margin-top: 7%;
+        margin-left: 15%;
+        border-radius: 25px;
+        border: solid white;
+        background-color:black;
+        transition: 1s;
+    }
+    
+    #info_escola:hover{
+        border: solid #449dd8;
+        color:#449dd8 ;
     }
 
     #slide_espaco{
@@ -690,8 +758,8 @@ footer{
 
    #conteudo-1{
     text-align:center;
-    width: 1390px;
-    height: 80px;
+    width: 1400px;
+    height: 200px;
     margin-left: -45px;
     margin-top:15px;
     font-size: 10px;

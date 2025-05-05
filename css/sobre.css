@@ -199,3 +199,10 @@ footer{
     margin-top: 1px;
     margin-bottom: -60%;
 }
+
+@media(min-width:814px){
+    
+    .content img{
+        width: 50%;
+    }
+}

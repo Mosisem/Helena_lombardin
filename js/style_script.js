@@ -6,6 +6,7 @@ var animacao_h = window.document.getElementById("button_h")
 var animacao_x = window.document.getElementById("button_x")
 var text_b = window.document.getElementById("tx_bb")
 var txt_b = window.document.getElementById("txt_bb")
+var info_escola = window.document.getElementById("info_escola") 
 
 
 function humanas_clique(){
@@ -49,3 +50,6 @@ function exatas_clique(){
 }
 
 
+function informacoes_da_escola(){
+      window.document.location="sobre.html"
+}

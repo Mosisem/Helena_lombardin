@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <title> Contato Escola Helena</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/geral.css">
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img id="logo" src="imagens/favicon-pq.png" alt="logotipo da escola">
+        </a>
+        <h1>E.E. HELENA LOMBARDI BRAGA</h1>
+        <nav>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <section class="section_contato" style="background-image:url(imagens/aaee36a5-45bb-4d0c-92ba-4a3fa9d38530.jpg); width:100%;">
+
+    </section>
+    <div class="box_content">
+        <center>
+            <h1 id="txt_t_contato">Fale conosco</h1>
+        </center>
+        <br>
+        <center>
+            <form action="js/">
+                <p>
+                    <input type="text"  name="Nome do responsável" placeholder="Nome do responsável:" class="input" id="" required>
+                </p>
+                <p>
+                    <input type="text" name="sobrenome do responsável" placeholder="Sobrenome do responsável:" class="input" id="" required>
+                </p> 
+        
+                <p>
+                    <input type="email" name="E-mail" placeholder="E-mail:" class="input" id="" required>
+                </p>
+    
+                <p>
+                    <input type="text" name="celular" placeholder="Celular: " class="input" id="celular" maxlength="15" autocomplete="off" required>
+        
+                </p>
+    
+                <p>
+                    <input type="text"  name="Nome completo do aluno" placeholder="Nome completo do aluno:" class="input" id="" required>
+                </p>
+        
+                 <input type="submit"  value="Enviar" class="botao_form">
+
+            </form>
+
+        </center>
+    
+    </div>
+    <br><br>
+    <center>
+        <hr>
+    </center>
+        <br>
+        <br>
+        <section class="content_mae">
+        <center>
+                <h2>
+                    Informações adicionais:
+                    <br>
+                    <br>
+                </h2>
+                <div class="content_informacoes_de_contato">
+                    <ul>
+                        <li>
+                            <img src="imagens/historia.png" class="logo_h">
+                           <p>
+                            Horário Manhã: 7h as 14:00
+                           </p> 
+                        </li>
+                        <li>
+                            <img src="imagens/historia.png" class="logo_h">
+                            <p>
+                                Horário Tarde: 14h as 21:30
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </center>
+    
+         
+                <div class="content_local">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <center>
+                        <h3>
+                            Localização:
+                            <br>
+                            <br>
+                        </h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d468231.6515104223!2d-46.75769700925831!3d-23.530352306708266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce67014308e0d5%3A0xe9c83f4f4e1bfc0a!2sE.E.%20HELENA%20LOMBARDI%20BRAGA!5e0!3m2!1spt-BR!2sbr!4v1732400591466!5m2!1spt-BR!2sbr" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </center>
+                </div>
+           
+        </section>   
+        <section id="contact-info">
+            <p><strong>Telefone:</strong> (11) 2051-5290</p>
+            <p><strong>E-mail:</strong> contato@escolahelena.com.br</p>
+            <p><strong>Endereço:</strong> R VIRGINIA DE MIRANDA , 138 - JARDIM NORMA - SAO PAULO
+            </p>
+        </section> 
+
+
+
+
+    <footer>
+        <p>Desenvolvido por Willian Silva e Mosi João</p>
+    </footer>
+      
+
+</body>
+</html>
+<script>
+
+	$('#celular').mask('(00) 0000-00009');
+	$('#celular').blur(function(event) {
+		if($(this).val().length == 15){
+			$('#celular').mask('(00) 00000-0009');
+		} else {
+			$('#celular').mask('(00) 0000-00009');
+		}
+	});
+
+</script>

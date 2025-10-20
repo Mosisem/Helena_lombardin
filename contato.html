@@ -129,27 +129,14 @@
 
 function formula_M(){
     // Obtém os valores dos campos do formulário
-    message
-    const name = document.getElementById('nome').value;
-    const email = document.getElementById('email').value;
-    const subject = document.getElementById('subject').value;
-    const message = document.getElementById('message').value;
-
-    // Constrói o corpo do e-mail com os dados do formulário
-    const emailBody = `Nome: ${name}%0A%0AEmail: ${email}%0A%0AMensagem: ${message}`;
-    
-    // Define o endereço de destino (substitua por seu e-mail)
-    const recipient = 'seuemail@gmail.com';
-
-    // Cria a URL mailto com os dados, codificando os valores para URL
-    const mailtoUrl = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+    var email = window.document.getElementById('email')
+    const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent('E-mail de responsaveis')}&body=${encodeURIComponent('Olá essa mensagem serve para orientar')}`;
 
     // Redireciona a página para a URL mailto, abrindo o cliente de e-mail
     window.location.href = mailtoUrl;
 
     // Limpa o formulário após o redirecionamento (opcional)
-    this.reset();
-     };
+     }
 
 
 

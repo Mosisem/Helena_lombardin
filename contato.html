@@ -133,7 +133,7 @@ function formula_M(){
     const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent('E-mail de responsaveis')}&body=${encodeURIComponent('Olá essa mensagem serve para orientar')}`;
 
     // Redireciona a página para a URL mailto, abrindo o cliente de e-mail
-    window.location.href = mailtoUrl;
+    window.location = mailtoUrl;
 
     // Limpa o formulário após o redirecionamento (opcional)
      }

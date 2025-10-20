@@ -53,7 +53,7 @@
                     <input type="text"  name="Nome completo do aluno" placeholder="Nome completo do aluno:" class="input" id="" required>
                 </p>
         
-                 <input type="submit"  value="Enviar" class="botao_form">
+                 <input type="submit"  value="Enviar" class="botao_form" onclick="contatar()">
 
             </form>
 
@@ -127,13 +127,10 @@
 </html>
 <script>
 
-	$('#celular').mask('(00) 0000-00009');
-	$('#celular').blur(function(event) {
-		if($(this).val().length == 15){
-			$('#celular').mask('(00) 00000-0009');
-		} else {
-			$('#celular').mask('(00) 0000-00009');
-		}
-	});
+	var info_cont = window.document.getElementsByClassName('botao_form')
+    function contatar(){
+        window.document.location = "https://mail.google.com/"
+    }
+
 
 </script>

@@ -34,14 +34,14 @@
         <center>
             <form action="js/">
                 <p>
-                    <input type="text"  name="Nome do responsável" placeholder="Nome do responsável:" class="input" id="" required>
+                    <input type="text"  name="Nome do responsável" placeholder="Nome do responsável:" class="input" id="nome" required>
                 </p>
                 <p>
-                    <input type="text" name="sobrenome do responsável" placeholder="Sobrenome do responsável:" class="input" id="" required>
+                    <input type="text" name="sobrenome do responsável" placeholder="Sobrenome do responsável:" class="input" id="sobrenome" required>
                 </p> 
         
                 <p>
-                    <input type="email" name="E-mail" placeholder="E-mail:" class="input" id="" required>
+                    <input type="email" name="E-mail" placeholder="E-mail:" class="input" id="email" required>
                 </p>
     
                 <p>
@@ -50,7 +50,7 @@
                 </p>
     
                 <p>
-                    <input type="text"  name="Nome completo do aluno" placeholder="Nome completo do aluno:" class="input" id="" required>
+                    <input type="text"  name="Nome completo do aluno" placeholder="Nome completo do aluno:" class="input" id="aluno" required>
                 </p>
         
                  <input type="submit"  value="Enviar" class="botao_form" onclick="contatar()">
@@ -127,10 +127,33 @@
 </html>
 <script>
 
-	var info_cont = window.document.getElementsByClassName('botao_form')
-    function contatar(){
-        window.document.location = "https://mail.google.com/"
-    }
+	document.getElementById('contactForm').addEventListener('submit', function(event) {
+    // Impede o envio padrão do formulário, que recarregaria a página
+    event.preventDefault(); 
+
+    // Obtém os valores dos campos do formulário
+    message
+    const name = document.getElementById('nome').value;
+    const email = document.getElementById('email').value;
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value;
+
+    // Constrói o corpo do e-mail com os dados do formulário
+    const emailBody = `Nome: ${name}%0A%0AEmail: ${email}%0A%0AMensagem: ${message}`;
+    
+    // Define o endereço de destino (substitua por seu e-mail)
+    const recipient = 'seuemail@gmail.com';
+
+    // Cria a URL mailto com os dados, codificando os valores para URL
+    const mailtoUrl = `mailto:${recipient}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+
+    // Redireciona a página para a URL mailto, abrindo o cliente de e-mail
+    window.location.href = mailtoUrl;
+
+    // Limpa o formulário após o redirecionamento (opcional)
+    this.reset();
+     });
+
 
 
 </script>

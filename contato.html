@@ -53,7 +53,7 @@
                     <input type="text"  name="Nome completo do aluno" placeholder="Nome completo do aluno:" class="input" id="aluno" required>
                 </p>
         
-                 <input type="submit"  value="Enviar" class="botao_form" onclick="contatar()">
+                 <input type="submit"  value="Enviar" class="botao_form" onclick="formula_M()">
 
             </form>
 
@@ -127,10 +127,7 @@
 </html>
 <script>
 
-	document.getElementById('contactForm').addEventListener('submit', function(event) {
-    // Impede o envio padrão do formulário, que recarregaria a página
-    event.preventDefault(); 
-
+function formula_M(){
     // Obtém os valores dos campos do formulário
     message
     const name = document.getElementById('nome').value;
@@ -152,7 +149,7 @@
 
     // Limpa o formulário após o redirecionamento (opcional)
     this.reset();
-     });
+     };
 
 
 
